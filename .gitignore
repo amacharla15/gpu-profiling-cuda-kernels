@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+gpu-env/
+
+# CUDA build artifacts
+*.o
+*.so
+*.cubin
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files (don't commit model weights)
+*.pt
+*.pth
+*.onnx
+
+# Profiler traces (can be huge)
+*.json.gz
+*.nsys-rep
+*.ncu-rep
