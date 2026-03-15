@@ -1,0 +1,301 @@
+{
+  "timestamp": "2026-03-15T01:17:31.605017",
+  "gpu_info": {
+    "gpu_name": "NVIDIA A100 80GB PCIe",
+    "compute_capability": "8.0",
+    "vram_gb": 79.2,
+    "num_sms": 108,
+    "pytorch_version": "2.10.0+cu128",
+    "cuda_version": "12.8"
+  },
+  "results": {
+    "bs1_fp32": {
+      "batch_size": 1,
+      "dtype": "fp32",
+      "total_cuda_ms": 2.8,
+      "top_kernels": [
+        {
+          "kernel_name": "aten::cudnn_convolution",
+          "calls": 53,
+          "total_cuda_us": 949.7,
+          "avg_cuda_us": 17.9,
+          "pct_of_total": 33.9,
+          "cpu_time_us": 2656.6
+        },
+        {
+          "kernel_name": "sm80_xmma_fprop_implicit_gemm_tf32f32_tf32f32_f32_nhwckrsc_nchw_tilesize64x32x64_stage5_warpsize2x2x1_g1_tensor16x8x8_alignc4_execute_kernel__5x_cudnn",
+          "calls": 16,
+          "total_cuda_us": 244.6,
+          "avg_cuda_us": 15.3,
+          "pct_of_total": 8.7,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "aten::cudnn_batch_norm",
+          "calls": 53,
+          "total_cuda_us": 236.0,
+          "avg_cuda_us": 4.5,
+          "pct_of_total": 8.4,
+          "cpu_time_us": 1744.8
+        },
+        {
+          "kernel_name": "void cudnn::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)",
+          "calls": 53,
+          "total_cuda_us": 236.0,
+          "avg_cuda_us": 4.5,
+          "pct_of_total": 8.4,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "void cudnn::engines_precompiled::nchwToNhwcKernel<float, float, float, false, true, (cudnnKernelDataType_t)2>(cudnn::engines_precompiled::nchw2nhwc_params_t<float>, float const*, float*)",
+          "calls": 36,
+          "total_cuda_us": 211.2,
+          "avg_cuda_us": 5.9,
+          "pct_of_total": 7.5,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "void precomputed_convolve_sgemm<float, 1024, 5, 5, 4, 3, 3, 1, false>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, bool, bool, float const*, float const*, int*)",
+          "calls": 2,
+          "total_cuda_us": 128.7,
+          "avg_cuda_us": 64.4,
+          "pct_of_total": 4.6,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "aten::clamp_min_",
+          "calls": 49,
+          "total_cuda_us": 123.7,
+          "avg_cuda_us": 2.5,
+          "pct_of_total": 4.4,
+          "cpu_time_us": 578.7
+        },
+        {
+          "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::launch_clamp_scalar(at::TensorIteratorBase&, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::{lambda()#1}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul> >(int, at::native::(anonymous namespace)::launch_clamp_scalar(at::TensorIteratorBase&, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::{lambda()#1}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul>)",
+          "calls": 49,
+          "total_cuda_us": 123.7,
+          "avg_cuda_us": 2.5,
+          "pct_of_total": 4.4,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_64x64_32x6_nn_align4>(cutlass_80_tensorop_s1688gemm_64x64_32x6_nn_align4::Params)",
+          "calls": 14,
+          "total_cuda_us": 114.1,
+          "avg_cuda_us": 8.2,
+          "pct_of_total": 4.1,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_128x64_16x6_nn_align4>(cutlass_80_tensorop_s1688gemm_128x64_16x6_nn_align4::Params)",
+          "calls": 9,
+          "total_cuda_us": 67.7,
+          "avg_cuda_us": 7.5,
+          "pct_of_total": 2.4,
+          "cpu_time_us": 0
+        }
+      ],
+      "bottleneck": {
+        "compute_pct": 80.7,
+        "memory_pct": 19.3
+      },
+      "memory": {
+        "allocated_mb": 8.2,
+        "reserved_mb": 144.0,
+        "max_allocated_mb": 117.2
+      }
+    },
+    "bs64_fp32": {
+      "batch_size": 64,
+      "dtype": "fp32",
+      "total_cuda_ms": 40.74,
+      "top_kernels": [
+        {
+          "kernel_name": "aten::cudnn_convolution",
+          "calls": 53,
+          "total_cuda_us": 9478.6,
+          "avg_cuda_us": 178.8,
+          "pct_of_total": 23.3,
+          "cpu_time_us": 2334.2
+        },
+        {
+          "kernel_name": "aten::cudnn_batch_norm",
+          "calls": 53,
+          "total_cuda_us": 4616.4,
+          "avg_cuda_us": 87.1,
+          "pct_of_total": 11.3,
+          "cpu_time_us": 1480.3
+        },
+        {
+          "kernel_name": "void cudnn::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)",
+          "calls": 53,
+          "total_cuda_us": 4616.4,
+          "avg_cuda_us": 87.1,
+          "pct_of_total": 11.3,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_256x64_16x4_nn_align4>(cutlass_80_tensorop_s1688gemm_256x64_16x4_nn_align4::Params)",
+          "calls": 28,
+          "total_cuda_us": 3840.9,
+          "avg_cuda_us": 137.2,
+          "pct_of_total": 9.4,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "aten::clamp_min_",
+          "calls": 49,
+          "total_cuda_us": 2898.0,
+          "avg_cuda_us": 59.1,
+          "pct_of_total": 7.1,
+          "cpu_time_us": 546.0
+        },
+        {
+          "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::launch_clamp_scalar(at::TensorIteratorBase&, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::{lambda()#1}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul> >(int, at::native::(anonymous namespace)::launch_clamp_scalar(at::TensorIteratorBase&, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::{lambda()#1}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul>)",
+          "calls": 49,
+          "total_cuda_us": 2898.0,
+          "avg_cuda_us": 59.1,
+          "pct_of_total": 7.1,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "aten::add_",
+          "calls": 16,
+          "total_cuda_us": 2503.0,
+          "avg_cuda_us": 156.4,
+          "pct_of_total": 6.1,
+          "cpu_time_us": 253.0
+        },
+        {
+          "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<float>, std::array<char*, 3ul> >(int, at::native::CUDAFunctor_add<float>, std::array<char*, 3ul>)",
+          "calls": 16,
+          "total_cuda_us": 2503.0,
+          "avg_cuda_us": 156.4,
+          "pct_of_total": 6.1,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "sm80_xmma_fprop_implicit_gemm_tf32f32_tf32f32_f32_nhwckrsc_nchw_tilesize128x128x16_stage4_warpsize2x2x1_g1_tensor16x8x8_alignc4_execute_kernel__5x_cudnn",
+          "calls": 21,
+          "total_cuda_us": 2374.1,
+          "avg_cuda_us": 113.1,
+          "pct_of_total": 5.8,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "void cudnn::engines_precompiled::nchwToNhwcKernel<float, float, float, false, true, (cudnnKernelDataType_t)2>(cudnn::engines_precompiled::nchw2nhwc_params_t<float>, float const*, float*)",
+          "calls": 48,
+          "total_cuda_us": 1786.3,
+          "avg_cuda_us": 37.2,
+          "pct_of_total": 4.4,
+          "cpu_time_us": 0
+        }
+      ],
+      "bottleneck": {
+        "compute_pct": 55.6,
+        "memory_pct": 44.4
+      },
+      "memory": {
+        "allocated_mb": 9.2,
+        "reserved_mb": 1164.0,
+        "max_allocated_mb": 782.2
+      }
+    },
+    "bs64_fp16": {
+      "batch_size": 64,
+      "dtype": "fp16",
+      "total_cuda_ms": 26.27,
+      "top_kernels": [
+        {
+          "kernel_name": "aten::cudnn_convolution",
+          "calls": 53,
+          "total_cuda_us": 5937.4,
+          "avg_cuda_us": 112.0,
+          "pct_of_total": 22.6,
+          "cpu_time_us": 2467.6
+        },
+        {
+          "kernel_name": "aten::native_batch_norm",
+          "calls": 53,
+          "total_cuda_us": 3757.7,
+          "avg_cuda_us": 70.9,
+          "pct_of_total": 14.3,
+          "cpu_time_us": 1400.4
+        },
+        {
+          "kernel_name": "void at::native::batch_norm_transform_input_kernel<c10::Half, c10::Half, float, true, int>(torch::headeronly::detail::GenericPackedTensorAccessor<torch::headeronly::detail::TensorAccessor<c10::ArrayRef<long>, c10::Half const, 2ul, torch::headeronly::RestrictPtrTraits, int>, at::detail::IndexBoundsCheck<3ul, int>, c10::Half const, 3ul, torch::headeronly::RestrictPtrTraits, int>, torch::headeronly::detail::GenericPackedTensorAccessor<torch::headeronly::detail::TensorAccessor<c10::ArrayRef<long>, c10::Half, 2ul, torch::headeronly::RestrictPtrTraits, int>, at::detail::IndexBoundsCheck<3ul, int>, c10::Half, 3ul, torch::headeronly::RestrictPtrTraits, int>, torch::headeronly::detail::GenericPackedTensorAccessor<torch::headeronly::detail::TensorAccessor<c10::ArrayRef<long>, std::conditional<true, float, c10::Half>::type, 0ul, torch::headeronly::RestrictPtrTraits, int>, at::detail::IndexBoundsCheck<1ul, int>, std::conditional<true, float, c10::Half>::type, 1ul, torch::headeronly::RestrictPtrTraits, int>, torch::headeronly::detail::GenericPackedTensorAccessor<torch::headeronly::detail::TensorAccessor<c10::ArrayRef<long>, std::conditional<true, float, c10::Half>::type, 0ul, torch::headeronly::RestrictPtrTraits, int>, at::detail::IndexBoundsCheck<1ul, int>, std::conditional<true, float, c10::Half>::type, 1ul, torch::headeronly::RestrictPtrTraits, int>, torch::headeronly::detail::GenericPackedTensorAccessor<torch::headeronly::detail::TensorAccessor<c10::ArrayRef<long>, c10::Half const, 0ul, torch::headeronly::RestrictPtrTraits, int>, at::detail::IndexBoundsCheck<1ul, int>, c10::Half const, 1ul, torch::headeronly::RestrictPtrTraits, int>, torch::headeronly::detail::GenericPackedTensorAccessor<torch::headeronly::detail::TensorAccessor<c10::ArrayRef<long>, c10::Half const, 0ul, torch::headeronly::RestrictPtrTraits, int>, at::detail::IndexBoundsCheck<1ul, int>, c10::Half const, 1ul, torch::headeronly::RestrictPtrTraits, int>, float)",
+          "calls": 53,
+          "total_cuda_us": 3634.2,
+          "avg_cuda_us": 68.6,
+          "pct_of_total": 13.8,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "aten::clamp_min_",
+          "calls": 49,
+          "total_cuda_us": 1342.9,
+          "avg_cuda_us": 27.4,
+          "pct_of_total": 5.1,
+          "cpu_time_us": 431.1
+        },
+        {
+          "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::launch_clamp_scalar(at::TensorIteratorBase&, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(c10::Half)#1}, std::array<char*, 2ul> >(int, at::native::(anonymous namespace)::launch_clamp_scalar(at::TensorIteratorBase&, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(c10::Half)#1}, std::array<char*, 2ul>)",
+          "calls": 49,
+          "total_cuda_us": 1342.9,
+          "avg_cuda_us": 27.4,
+          "pct_of_total": 5.1,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "void cudnn::engines_precompiled::nchwToNhwcKernel<__half, __half, float, false, true, (cudnnKernelDataType_t)0>(cudnn::engines_precompiled::nchw2nhwc_params_t<float>, __half const*, __half*)",
+          "calls": 48,
+          "total_cuda_us": 1246.2,
+          "avg_cuda_us": 26.0,
+          "pct_of_total": 4.7,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "aten::add_",
+          "calls": 16,
+          "total_cuda_us": 1228.3,
+          "avg_cuda_us": 76.8,
+          "pct_of_total": 4.7,
+          "cpu_time_us": 179.5
+        },
+        {
+          "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<c10::Half>, std::array<char*, 3ul> >(int, at::native::CUDAFunctor_add<c10::Half>, std::array<char*, 3ul>)",
+          "calls": 16,
+          "total_cuda_us": 1228.3,
+          "avg_cuda_us": 76.8,
+          "pct_of_total": 4.7,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "void cutlass__5x_cudnn::Kernel<cutlass_tensorop_f16_s16816fprop_optimized_f16_128x128_32x4_nhwc_align8>(cutlass_tensorop_f16_s16816fprop_optimized_f16_128x128_32x4_nhwc_align8::Params)",
+          "calls": 19,
+          "total_cuda_us": 1011.7,
+          "avg_cuda_us": 53.2,
+          "pct_of_total": 3.9,
+          "cpu_time_us": 0
+        },
+        {
+          "kernel_name": "void cudnn::engines_precompiled::nhwcToNchwKernel<__half, __half, float, true, false, (cudnnKernelDataType_t)0>(cudnn::engines_precompiled::nhwc2nchw_params_t<float>, __half const*, __half*)",
+          "calls": 31,
+          "total_cuda_us": 660.8,
+          "avg_cuda_us": 21.3,
+          "pct_of_total": 2.5,
+          "cpu_time_us": 0
+        }
+      ],
+      "bottleneck": {
+        "compute_pct": 34.7,
+        "memory_pct": 65.3
+      },
+      "memory": {
+        "allocated_mb": 9.2,
+        "reserved_mb": 1164.0,
+        "max_allocated_mb": 782.2
+      }
+    }
+  }
+}
