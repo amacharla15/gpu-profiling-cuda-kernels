@@ -1,0 +1,226 @@
+nsys target script complete.
+Collecting data...
+Generating '/tmp/nsys-report-fcd4.qdstrm'
+
+[1/8] [0%                          ] resnet50_nsys.nsys-rep
+[1/8] [0%                          ] resnet50_nsys.nsys-rep
+[1/8] [==20%                       ] resnet50_nsys.nsys-rep
+[1/8] [=======38%                  ] resnet50_nsys.nsys-rep
+[1/8] [============56%             ] resnet50_nsys.nsys-rep
+[1/8] [========================100%] resnet50_nsys.nsys-rep
+[1/8] [========================100%] resnet50_nsys.nsys-rep
+
+[2/8] [0%                          ] resnet50_nsys.sqlite
+[2/8] [1%                          ] resnet50_nsys.sqlite
+[2/8] [2%                          ] resnet50_nsys.sqlite
+[2/8] [3%                          ] resnet50_nsys.sqlite
+[2/8] [4%                          ] resnet50_nsys.sqlite
+[2/8] [5%                          ] resnet50_nsys.sqlite
+[2/8] [6%                          ] resnet50_nsys.sqlite
+[2/8] [7%                          ] resnet50_nsys.sqlite
+[2/8] [8%                          ] resnet50_nsys.sqlite
+[2/8] [9%                          ] resnet50_nsys.sqlite
+[2/8] [10%                         ] resnet50_nsys.sqlite
+[2/8] [11%                         ] resnet50_nsys.sqlite
+[2/8] [12%                         ] resnet50_nsys.sqlite
+[2/8] [13%                         ] resnet50_nsys.sqlite
+[2/8] [14%                         ] resnet50_nsys.sqlite
+[2/8] [=15%                        ] resnet50_nsys.sqlite
+[2/8] [=16%                        ] resnet50_nsys.sqlite
+[2/8] [=17%                        ] resnet50_nsys.sqlite
+[2/8] [==18%                       ] resnet50_nsys.sqlite
+[2/8] [==19%                       ] resnet50_nsys.sqlite
+[2/8] [==20%                       ] resnet50_nsys.sqlite
+[2/8] [==21%                       ] resnet50_nsys.sqlite
+[2/8] [===22%                      ] resnet50_nsys.sqlite
+[2/8] [===23%                      ] resnet50_nsys.sqlite
+[2/8] [===24%                      ] resnet50_nsys.sqlite
+[2/8] [====25%                     ] resnet50_nsys.sqlite
+[2/8] [====26%                     ] resnet50_nsys.sqlite
+[2/8] [====27%                     ] resnet50_nsys.sqlite
+[2/8] [====28%                     ] resnet50_nsys.sqlite
+[2/8] [=====29%                    ] resnet50_nsys.sqlite
+[2/8] [=====30%                    ] resnet50_nsys.sqlite
+[2/8] [=====31%                    ] resnet50_nsys.sqlite
+[2/8] [=====32%                    ] resnet50_nsys.sqlite
+[2/8] [======33%                   ] resnet50_nsys.sqlite
+[2/8] [======34%                   ] resnet50_nsys.sqlite
+[2/8] [======35%                   ] resnet50_nsys.sqlite
+[2/8] [=======36%                  ] resnet50_nsys.sqlite
+[2/8] [=======37%                  ] resnet50_nsys.sqlite
+[2/8] [=======38%                  ] resnet50_nsys.sqlite
+[2/8] [=======39%                  ] resnet50_nsys.sqlite
+[2/8] [========40%                 ] resnet50_nsys.sqlite
+[2/8] [========41%                 ] resnet50_nsys.sqlite
+[2/8] [========42%                 ] resnet50_nsys.sqlite
+[2/8] [=========43%                ] resnet50_nsys.sqlite
+[2/8] [=========44%                ] resnet50_nsys.sqlite
+[2/8] [=========45%                ] resnet50_nsys.sqlite
+[2/8] [=========46%                ] resnet50_nsys.sqlite
+[2/8] [==========47%               ] resnet50_nsys.sqlite
+[2/8] [==========48%               ] resnet50_nsys.sqlite
+[2/8] [==========49%               ] resnet50_nsys.sqlite
+[2/8] [===========50%              ] resnet50_nsys.sqlite
+[2/8] [===========51%              ] resnet50_nsys.sqlite
+[2/8] [===========52%              ] resnet50_nsys.sqlite
+[2/8] [===========53%              ] resnet50_nsys.sqlite
+[2/8] [============54%             ] resnet50_nsys.sqlite
+[2/8] [============55%             ] resnet50_nsys.sqlite
+[2/8] [============56%             ] resnet50_nsys.sqlite
+[2/8] [============57%             ] resnet50_nsys.sqlite
+[2/8] [=============58%            ] resnet50_nsys.sqlite
+[2/8] [=============59%            ] resnet50_nsys.sqlite
+[2/8] [=============60%            ] resnet50_nsys.sqlite
+[2/8] [==============61%           ] resnet50_nsys.sqlite
+[2/8] [==============62%           ] resnet50_nsys.sqlite
+[2/8] [==============63%           ] resnet50_nsys.sqlite
+[2/8] [==============64%           ] resnet50_nsys.sqlite
+[2/8] [===============65%          ] resnet50_nsys.sqlite
+[2/8] [===============66%          ] resnet50_nsys.sqlite
+[2/8] [===============67%          ] resnet50_nsys.sqlite
+[2/8] [================68%         ] resnet50_nsys.sqlite
+[2/8] [================69%         ] resnet50_nsys.sqlite
+[2/8] [================70%         ] resnet50_nsys.sqlite
+[2/8] [================71%         ] resnet50_nsys.sqlite
+[2/8] [=================72%        ] resnet50_nsys.sqlite
+[2/8] [=================73%        ] resnet50_nsys.sqlite
+[2/8] [=================74%        ] resnet50_nsys.sqlite
+[2/8] [==================75%       ] resnet50_nsys.sqlite
+[2/8] [==================76%       ] resnet50_nsys.sqlite
+[2/8] [==================77%       ] resnet50_nsys.sqlite
+[2/8] [==================78%       ] resnet50_nsys.sqlite
+[2/8] [===================79%      ] resnet50_nsys.sqlite
+[2/8] [===================80%      ] resnet50_nsys.sqlite
+[2/8] [===================81%      ] resnet50_nsys.sqlite
+[2/8] [===================82%      ] resnet50_nsys.sqlite
+[2/8] [====================83%     ] resnet50_nsys.sqlite
+[2/8] [====================84%     ] resnet50_nsys.sqlite
+[2/8] [====================85%     ] resnet50_nsys.sqlite
+[2/8] [=====================86%    ] resnet50_nsys.sqlite
+[2/8] [=====================87%    ] resnet50_nsys.sqlite
+[2/8] [=====================88%    ] resnet50_nsys.sqlite
+[2/8] [=====================89%    ] resnet50_nsys.sqlite
+[2/8] [======================90%   ] resnet50_nsys.sqlite
+[2/8] [======================91%   ] resnet50_nsys.sqlite
+[2/8] [======================92%   ] resnet50_nsys.sqlite
+[2/8] [=======================93%  ] resnet50_nsys.sqlite
+[2/8] [=======================94%  ] resnet50_nsys.sqlite
+[2/8] [=======================95%  ] resnet50_nsys.sqlite
+[2/8] [=======================96%  ] resnet50_nsys.sqlite
+[2/8] [========================97% ] resnet50_nsys.sqlite
+[2/8] [========================98% ] resnet50_nsys.sqlite
+[2/8] [========================99% ] resnet50_nsys.sqlite
+[2/8] [========================100%] resnet50_nsys.sqlite
+[2/8] [========================100%] resnet50_nsys.sqlite
+[3/8] Executing 'nvtx_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances    Avg (ns)       Med (ns)      Min (ns)     Max (ns)    StdDev (ns)   Style          Range       
+ --------  ---------------  ---------  -------------  -------------  -----------  -----------  -----------  -------  -------------------
+    100.0      101,592,786          1  101,592,786.0  101,592,786.0  101,592,786  101,592,786          0.0  PushPop  :resnet50_inference
+
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)      Med (ns)    Min (ns)    Max (ns)    StdDev (ns)          Name        
+ --------  ---------------  ---------  ------------  ------------  ---------  -----------  ------------  -------------------
+     92.0    3,041,609,958        153  19,879,803.6  10,072,234.0     89,232  366,219,221  37,487,212.3  poll               
+      4.5      147,590,638        767     192,425.9      14,920.0      1,071   30,004,791   1,149,796.8  ioctl              
+      0.8       27,639,739      2,269      12,181.5       4,241.0      1,001      408,268      25,047.3  read               
+      0.8       26,357,006     10,234       2,575.4       2,128.0      1,008       36,678       1,645.7  stat64             
+      0.6       19,312,866     15,281       1,263.8       1,219.0      1,000       28,660         574.1  lstat64            
+      0.4       12,681,762      3,042       4,168.9       3,438.5      1,950       69,998       2,503.3  munmap             
+      0.3       10,825,804      3,146       3,441.1       2,143.0      1,580    1,768,332      31,725.3  mmap64             
+      0.3        9,782,337      2,153       4,543.6       4,384.0      1,735       60,425       2,141.5  open64             
+      0.2        5,064,382          1   5,064,382.0   5,064,382.0  5,064,382    5,064,382           0.0  nanosleep          
+      0.1        2,395,804      1,684       1,422.7       1,406.0      1,001       13,801         570.8  close              
+      0.0        1,140,070         17      67,062.9      66,969.0     61,867       76,906       3,311.9  sleep              
+      0.0          743,829         11      67,620.8      31,166.0     22,271      371,978     102,034.0  sem_timedwait      
+      0.0          559,340        432       1,294.8       1,156.0      1,000       13,211         866.7  fstat64            
+      0.0          484,161         27      17,931.9      11,444.0      1,979       56,463      15,015.9  fgets              
+      0.0          346,112         62       5,582.5       2,860.0      1,053       28,052       5,923.2  fopen              
+      0.0          333,318         27      12,345.1       6,895.0      3,022       99,915      18,303.1  mmap               
+      0.0          181,594          2      90,797.0      90,797.0     78,922      102,672      16,793.8  pthread_create     
+      0.0          121,667         14       8,690.5       6,891.0      3,996       27,834       6,548.0  write              
+      0.0           99,732         16       6,233.3       3,686.0      1,570       21,954       5,731.7  open               
+      0.0           95,818         53       1,807.9       1,375.0      1,062        4,801         905.7  fclose             
+      0.0           88,572          7      12,653.1       6,553.0      1,539       41,666      14,120.6  pthread_cond_signal
+      0.0           65,500          2      32,750.0      32,750.0     27,549       37,951       7,355.3  socket             
+      0.0           40,800          4      10,200.0       9,680.0      2,105       19,335       7,172.2  fread              
+      0.0           31,132          6       5,188.7       3,285.5      1,819       12,074       4,233.1  fopen64            
+      0.0           22,098          3       7,366.0       8,217.0      2,611       11,270       4,391.8  pipe2              
+      0.0           18,543          1      18,543.0      18,543.0     18,543       18,543           0.0  connect            
+      0.0            8,135          1       8,135.0       8,135.0      8,135        8,135           0.0  bind               
+      0.0            4,090          2       2,045.0       2,045.0      2,007        2,083          53.7  fwrite             
+      0.0            3,539          2       1,769.5       1,769.5      1,757        1,782          17.7  sigaction          
+      0.0            2,280          2       1,140.0       1,140.0      1,095        1,185          63.6  fflush             
+      0.0            1,847          1       1,847.0       1,847.0      1,847        1,847           0.0  getc               
+      0.0            1,071          1       1,071.0       1,071.0      1,071        1,071           0.0  listen             
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)      Med (ns)     Min (ns)    Max (ns)   StdDev (ns)               Name             
+ --------  ---------------  ---------  ------------  ------------  ----------  ----------  -----------  ------------------------------
+     44.5      131,534,650      1,369      96,080.8       8,748.0       4,560  45,879,408  1,579,738.0  cudaLaunchKernel              
+     24.1       71,160,609          6  11,860,101.5  10,357,436.5  10,129,629  19,651,497  3,818,476.4  cudaDeviceSynchronize         
+      9.6       28,393,517        320      88,729.7       6,311.5       4,298   2,407,930    322,688.3  cudaMemcpyAsync               
+      7.3       21,457,702          4   5,364,425.5   6,624,736.5   1,257,582   6,950,647  2,742,698.9  cuLibraryLoadData             
+      4.9       14,394,761         11   1,308,614.6     123,356.0      41,984   8,123,729  2,625,180.2  cuLibraryUnload               
+      2.4        7,087,626        224      31,641.2       1,012.0         826   6,851,700    457,727.8  cuKernelGetFunction           
+      1.9        5,699,797        320      17,811.9       6,260.5       3,222     122,471     30,603.9  cudaStreamSynchronize         
+      1.3        3,878,417         25     155,136.7     140,638.0       5,434     322,833     73,126.2  cudaMalloc                    
+      1.1        3,279,136          3   1,093,045.3   1,219,557.0     785,501   1,274,078    267,732.7  cudaGetDeviceProperties_v12000
+      1.0        2,906,214          2   1,453,107.0   1,453,107.0      16,607   2,889,607  2,031,517.8  cudaFree                      
+      0.7        2,069,080        224       9,237.0       8,535.0       7,205      32,240      2,868.7  cuLaunchKernel                
+      0.5        1,354,754        192       7,056.0       6,683.0       5,619      20,457      1,745.8  cudaLaunchKernelExC_v11060    
+      0.4        1,259,626          1   1,259,626.0   1,259,626.0   1,259,626   1,259,626          0.0  cudaHostAlloc                 
+      0.2          522,802      2,095         249.5         192.0         115      12,413        352.7  cuGetProcAddress_v2           
+      0.1          221,393         16      13,837.1       3,073.5       2,271     142,278     35,241.2  cudaStreamCreateWithFlags     
+      0.0          131,283         17       7,722.5      10,052.0         387      29,713      8,224.8  cudaMemsetAsync               
+      0.0           86,073         23       3,742.3       1,478.0         508      28,938      6,237.5  cudaStreamIsCapturing_v10000  
+      0.0           36,482         19       1,920.1         488.0         421      15,534      3,701.2  cudaEventCreateWithFlags      
+      0.0           32,032          5       6,406.4       8,280.0         655      12,506      5,022.3  cuLibraryGetKernel            
+      0.0           17,124          7       2,446.3       2,399.0       1,956       3,557        563.6  cuInit                        
+      0.0            2,425          2       1,212.5       1,212.5         861       1,564        497.1  cudaGetDriverEntryPoint_v11030
+      0.0            1,665          6         277.5         192.5         148         726        221.8  cuModuleGetLoadingMode        
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)                                                  Name                                                
+ --------  ---------------  ---------  ---------  ---------  --------  --------  -----------  ----------------------------------------------------------------------------------------------------
+     23.2       36,917,512        424   87,069.6   75,952.0    18,112   302,560     79,164.9  void cudnn::bn_fw_inf_1C11_kernel_NCHW<float, float, (bool)1, (int)1>(T2, T2, cudnnTensorStruct, co…
+     19.3       30,717,251        224  137,130.6  119,072.0    65,504   223,968     36,158.5  void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_256x64_16x4_nn_align4>(T1::Params)              
+     14.6       23,206,915        392   59,201.3   24,448.0     5,248   263,200     69,861.6  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(a…
+     12.6       20,026,822        128  156,459.5   91,392.0    44,768   365,632    111,106.6  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctor_add<float>, std::arr…
+     11.9       19,028,806        168  113,266.7  121,424.0    60,480   158,688     28,005.7  sm80_xmma_fprop_implicit_gemm_tf32f32_tf32f32_f32_nhwckrsc_nchw_tilesize128x128x16_stage4_warpsize2…
+      8.9       14,248,003        384   37,104.2   16,352.0     4,032   256,064     46,483.7  void cudnn::engines_precompiled::nchwToNhwcKernel<float, float, float, (bool)0, (bool)1, (cudnnKern…
+      4.5        7,245,312          8  905,664.0  905,520.0   904,864   906,528        572.2  _5x_cudnn_ampere_scudnn_128x64_relu_medium_nn_v1                                                    
+      2.9        4,570,752         24  190,448.0  190,320.0   189,280   191,904        718.3  sm80_xmma_fprop_implicit_gemm_indexed_tf32f32_tf32f32_f32_nhwckrsc_nchw_tilesize256x64x32_stage3_wa…
+      1.6        2,540,929          8  317,616.1  317,632.5   316,800   319,200        838.6  void at::native::<unnamed>::max_pool_forward_nchw<float, int>(T2, const T1 *, long, long, long, int…
+      0.3          468,832          8   58,604.0   60,080.0    50,144    61,696      3,751.2  ampere_sgemm_32x32_sliced1x4_tn                                                                     
+      0.3          407,264          8   50,908.0   50,944.0    50,592    51,232        238.5  void at::native::reduce_kernel<(int)512, (int)1, at::native::ReduceOp<float, at::native::MeanOps<fl…
+      0.0           44,192          1   44,192.0   44,192.0    44,192    44,192          0.0  void at::native::<unnamed>::distribution_elementwise_grid_stride_kernel<float, (int)4, void at::nat…
+      0.0           20,896          8    2,612.0    2,608.0     2,592     2,656         23.8  void cask__5x_cudnn::computeOffsetsKernel<(bool)0, (bool)0>(cask__5x_cudnn::ComputeOffsetsParams)   
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)  Med (ns)  Min (ns)  Max (ns)   StdDev (ns)           Operation          
+ --------  ---------------  -----  --------  --------  --------  ---------  -----------  ----------------------------
+     99.9       20,538,311    320  64,182.2   1,120.0       992  2,251,009    287,921.7  [CUDA memcpy Host-to-Device]
+      0.1           12,064      9   1,340.4   1,088.0     1,056      2,624        510.4  [CUDA memset]               
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)           Operation          
+ ----------  -----  --------  --------  --------  --------  -----------  ----------------------------
+    102.441    320     0.320     0.001     0.000     9.437        1.273  [CUDA memcpy Host-to-Device]
+      0.023      9     0.003     0.000     0.000     0.021        0.007  [CUDA memset]               
+
+Generated:
+	/home/amacharla/gpu-profiling-cuda-kernels/profiling/results/resnet50_nsys.nsys-rep
+	/home/amacharla/gpu-profiling-cuda-kernels/profiling/results/resnet50_nsys.sqlite
+
+WARNING: CPU IP/backtrace sampling not supported, disabling.
+Try the 'nsys status --environment' command to learn more.
+
+WARNING: CPU context switch tracing not supported, disabling.
+Try the 'nsys status --environment' command to learn more.
+
