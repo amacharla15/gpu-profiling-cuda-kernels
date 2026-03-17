@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-03-17T00:06:17.475927",
+  "gpu_info": {
+    "gpu_name": "NVIDIA A100 80GB PCIe",
+    "compute_capability": "8.0",
+    "vram_gb": 79.2,
+    "num_sms": 108,
+    "pytorch_version": "2.10.0+cu128",
+    "cuda_version": "12.8"
+  },
+  "config": {
+    "batch_size": 64,
+    "dtype": "fp32"
+  },
+  "results": {
+    "timing": {
+      "eager": {
+        "mean_ms": 20.2091,
+        "std_ms": 0.0348,
+        "p50_ms": 20.2004,
+        "p95_ms": 20.2763,
+        "min_ms": 20.1654,
+        "max_ms": 20.281,
+        "num_runs": 30,
+        "num_warmup": 5
+      },
+      "compiled": {
+        "mean_ms": 21.1569,
+        "std_ms": 0.0581,
+        "p50_ms": 21.1683,
+        "p95_ms": 21.2469,
+        "min_ms": 21.0443,
+        "max_ms": 21.2847,
+        "num_runs": 30,
+        "num_warmup": 3
+      }
+    },
+    "kernel_analysis": {
+      "eager": {
+        "total_kernel_launches": 399,
+        "unique_kernels": 21,
+        "total_device_time_us": 40945.9,
+        "top5_kernels": [
+          {
+            "name": "aten::cudnn_convolution",
+            "calls": 53,
+            "device_time_us": 9556.9,
+            "pct": 23.3
+          },
+          {
+            "name": "aten::cudnn_batch_norm",
+            "calls": 53,
+            "device_time_us": 4629.2,
+            "pct": 11.3
+          },
+          {
+            "name": "void cudnn::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1",
+            "calls": 53,
+            "device_time_us": 4629.2,
+            "pct": 11.3
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_256x64_1",
+            "calls": 28,
+            "device_time_us": 3870.8,
+            "pct": 9.5
+          },
+          {
+            "name": "aten::clamp_min_",
+            "calls": 49,
+            "device_time_us": 2893.0,
+            "pct": 7.1
+          }
+        ]
+      },
+      "compiled": {
+        "total_kernel_launches": 343,
+        "unique_kernels": 22,
+        "total_device_time_us": 60466.4,
+        "top5_kernels": [
+          {
+            "name": "Torch-Compiled Region: 0/0",
+            "calls": 1,
+            "device_time_us": 19998.2,
+            "pct": 33.1
+          },
+          {
+            "name": "Activity Buffer Request",
+            "calls": 1,
+            "device_time_us": 19998.2,
+            "pct": 33.1
+          },
+          {
+            "name": "void at::native::batch_norm_transform_input_kernel<float, fl",
+            "calls": 53,
+            "device_time_us": 4459.7,
+            "pct": 7.4
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_256x64_1",
+            "calls": 28,
+            "device_time_us": 3846.0,
+            "pct": 6.4
+          },
+          {
+            "name": "void at::native::vectorized_elementwise_kernel<4, at::native",
+            "calls": 49,
+            "device_time_us": 2864.6,
+            "pct": 4.7
+          }
+        ]
+      }
+    },
+    "summary": {
+      "speedup": 0.96,
+      "eager_launches": 399,
+      "compiled_launches": 343
+    }
+  }
+}
